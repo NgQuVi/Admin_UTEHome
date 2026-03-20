@@ -12,6 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Admin_UTEHome">
         <activity
+            android:name=".ApartmentDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OccupancyListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddApartmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApartmentListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResidentDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddResidentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResidentListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
