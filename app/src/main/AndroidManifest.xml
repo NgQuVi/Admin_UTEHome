@@ -15,6 +15,35 @@
             android:name=".ApartmentDetailActivity"
             android:exported="false" />
         <activity
+            android:name=".NotificationManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComposeNotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InvoiceManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InvoiceDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComposeInvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VehicleManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VehicleDetailActivity"
+            android:exported="false" />
+
+
+        <activity
             android:name=".OccupancyListActivity"
             android:exported="false" />
         <activity
