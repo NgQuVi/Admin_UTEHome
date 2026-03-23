@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingStart="0dp"
+    android:paddingEnd="0dp"
+    android:paddingBottom="16dp">
+
+    <!-- Card nội dung -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_notif_item"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Hàng tag + thời gian -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag_maintenance"
+                android:fontFamily="sans-serif-bold"
+                android:paddingStart="8dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="3dp"
+                android:text="BẢO TRÌ"
+                android:textColor="#2196F3"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:30 - 24/10/2023"
+                android:textColor="@color/text_secondary"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!-- Tiêu đề thông báo -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-bold"
+            android:text="Thông báo bảo trì thang máy tòa S1"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp" />
+
+        <!-- Đối tượng nhận -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivRecipientIcon"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="@string/icon_desc"
+                android:src="@drawable/ic_person_tiny"
+                android:tint="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/tvRecipient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toàn bộ cư dân tòa S1"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

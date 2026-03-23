@@ -1,3 +1,36 @@
-<resources>
+﻿<resources>
     <string name="app_name">Admin_UTEHome</string>
+    <string name="brand_name">UTEHome</string>
+    <string name="login_title">Đăng nhập tài khoản</string>
+    <string name="login_subtitle">Vui lòng nhập thông tin của bạn để truy cập trang quản lý.</string>
+    <string name="username_label">Tài khoản</string>
+    <string name="password_label">Mật khẩu</string>
+    <string name="username_hint">Nhập tài khoản admin</string>
+    <string name="password_hint">Nhập mật khẩu</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="logo_icon">Biểu tượng UTEHome</string>
+    <string name="account_icon">Biểu tượng tài khoản</string>
+    <string name="lock_icon">Biểu tượng khóa</string>
+    <string name="toggle_password">Ẩn hoặc hiện mật khẩu</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="admin_support">Dành cho quản trị viên hệ thống</string>
+    <string name="dashboard_title">Bảng điều khiển</string>
+    <string name="dashboard_admin">Quản trị viên: Minh Anh</string>
+    <string name="stat_total_residents">Tổng cư dân</string>
+    <string name="stat_total_apartments">Tổng căn hộ</string>
+    <string name="stat_occupied_empty">Trống / Đang ở</string>
+    <string name="stat_monthly_fee">Phí đã thu</string>
+    <string name="value_total_residents">1,250</string>
+    <string name="value_total_apartments">450</string>
+    <string name="value_occupied_empty">12 / 438</string>
+    <string name="value_monthly_fee">2.5B VNĐ</string>
+    <string name="quick_actions_title">Hành động nhanh</string>
+    <string name="quick_notify">Thông báo</string>
+    <string name="quick_invoice">Hóa đơn</string>
+    <string name="quick_feedback">Phản ánh</string>
+    <string name="nav_dashboard">Bảng điều khiển</string>
+    <string name="nav_manage">Quản lý</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="avatar_desc">Ảnh quản trị viên</string>
+    <string name="icon_desc">Biểu tượng chức năng</string>
 </resources>
